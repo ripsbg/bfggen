@@ -97,7 +97,7 @@ module.exports = {
                 member.send({ embeds: [embedMessage] })
                     .catch(error => console.error(`Error sending embed message: ${error}`));
                 interaction.reply({
-                    content: `**Check your DM ${member}!** __If you do not receive the message, please unlock your private!__`,
+                    content: ` ``${service} Account Generated!`` **Check your DM ${member}!** __If you do not receive the message, please unlock your private!__`,
                 });
 
                 generated.add(member.id);
